@@ -1,0 +1,1 @@
+console.log((2n**1000n).toString().split("").map(BigInt).reduce((a,c) => a + c, 0n));
